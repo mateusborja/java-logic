@@ -1,5 +1,5 @@
 
-package com.javalogic.mateusborja;
+package com.mateusborja.javalogic.introducao;
 
 public class MainSection01 {
 	public static void main(String[] args) {
