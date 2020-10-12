@@ -38,6 +38,10 @@ public class Pessoa {
 	public void mostrar() {
 		System.out.println("O nome e a idade são: =>");
 	}
+	
+	public String toString() {
+		return "O nome é: => " + nome + " e sua idade é: => " + idade;
+	}
 
 
 }
