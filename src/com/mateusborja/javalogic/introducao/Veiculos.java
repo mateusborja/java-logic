@@ -9,6 +9,27 @@ public class Veiculos {
 	private int preco;
 	
 	
+	
+	public Veiculos(String marca) {
+		this.marca = marca;
+
+	}
+	
+	public Veiculos(String marca, String modelo) {
+		this.marca = marca;
+		this.modelo = modelo;
+
+	}
+	
+	public Veiculos(String marca, String modelo, String matricula) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.matricula = matricula;
+
+	}
+	
+	
+	
 	public Veiculos(String marca, String modelo, String matricula, int preco) {
 		this.marca = marca;
 		this.modelo = modelo;
@@ -26,11 +47,11 @@ public class Veiculos {
 	}
 	
 	public void showCarros() {
-		System.out.println("Dados do Carro:\n");
-		System.out.println("Marca do Carro:" + marca);
-		System.out.println("Modelo do Carro:" + modelo);
-		System.out.println("Matricula do Carro:" + matricula);
-		System.out.println("Preço:" + preco + "\n");
+		System.out.println("Dados do Carro: \n");
+		System.out.println("Marca do Carro: " + marca);
+		System.out.println("Modelo do Carro: " + modelo);
+		System.out.println("Matricula do Carro: " + matricula);
+		System.out.println("Preço: " + preco + "\n");
 	}
 	
 
