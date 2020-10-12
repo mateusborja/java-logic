@@ -26,7 +26,7 @@ public class Motos extends Veiculos {
 	
 	
 	public void showVeiculos() {
-		System.out.println("Dados do Carro:");
+		System.out.println("Dados da Moto:");
 		super.showVeiculos();
 		System.out.println("Peso do Veículo: " + peso+ "\n");
 	}
