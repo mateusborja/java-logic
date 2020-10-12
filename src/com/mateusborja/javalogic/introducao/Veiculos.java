@@ -6,6 +6,7 @@ public class Veiculos {
 	private String marca;
 	private String modelo;
 	private String matricula;
+	private String placa;
 	private int preco;
 	
 	
@@ -28,12 +29,19 @@ public class Veiculos {
 
 	}
 	
-	
-	
-	public Veiculos(String marca, String modelo, String matricula, int preco) {
+	public Veiculos(String marca, String modelo, String matricula, String placa) {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.matricula = matricula;
+		this.placa = placa;
+
+	}
+	
+	public Veiculos(String marca, String modelo, String matricula, String placa, int preco) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.matricula = matricula;
+		this.placa = placa;
 		this.preco = preco;
 	}
 	
@@ -42,6 +50,7 @@ public class Veiculos {
 		marca = "Desconhecida";
 		modelo = "Desconhecido";
 		matricula = "PPP-10290-000";
+		placa = "JXP-10290";
 		preco = 0;
 				
 	}
@@ -51,6 +60,7 @@ public class Veiculos {
 		System.out.println("Marca do Carro: " + marca);
 		System.out.println("Modelo do Carro: " + modelo);
 		System.out.println("Matricula do Carro: " + matricula);
+		System.out.println("Placa do Carro: " + placa);
 		System.out.println("Preço: " + preco + "\n");
 	}
 	
@@ -83,7 +93,15 @@ public class Veiculos {
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
+	
 
+	public String getPlaca() {
+		return placa;
+	}
+
+	public void setPlaca(String placa) {
+		this.placa = placa;
+	}
 
 	public int getPreco() {
 		return preco;
