@@ -1,7 +1,7 @@
 //study java oo
 package com.mateusborja.javalogic.introducao;
 
-public class Veiculos {
+public class Veiculos  {
 	
 	private String marca;
 	private String modelo;
@@ -54,14 +54,13 @@ public class Veiculos {
 		preco = 0;
 				
 	}
-	
-	public void showCarros() {
-		System.out.println("Dados do Carro: \n");
-		System.out.println("Marca do Carro: " + marca);
-		System.out.println("Modelo do Carro: " + modelo);
-		System.out.println("Matricula do Carro: " + matricula);
-		System.out.println("Placa do Carro: " + placa);
-		System.out.println("Preço: " + preco + "\n");
+
+	public void showVeiculos() {
+		System.out.println("Marca: " + marca);
+		System.out.println("Modelo: " + modelo);
+		System.out.println("Matricula: " + matricula);
+		System.out.println("Placa: " + placa);
+		System.out.println("Preço: " + preco);
 	}
 	
 

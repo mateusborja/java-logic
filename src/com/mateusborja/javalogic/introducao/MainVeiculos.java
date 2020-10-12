@@ -3,16 +3,42 @@ package com.mateusborja.javalogic.introducao;
 public class MainVeiculos {
 	public static void main(String[] args) {
 		
-		Veiculos c1 = new Veiculos("Fiat", "Punto", "PPP-10290-000", "", 35000);
-		Veiculos c2 = new Veiculos();
-		Veiculos c3 = new Veiculos("Omega");
+		Veiculos v1 = new Veiculos();
+		Veiculos v2 = new Veiculos();
+		Carros c1 = new Carros();
+		Motos m1 = new Motos();
+		Caminhoes cam1 = new Caminhoes();
+
 		
-		c1.setPreco(25000);
-		c2.setPlaca("JXT-9090");
-		c3.setPreco(38000);
+		v1.setMarca("Punto");
+		v1.setModelo("Fiat");
+		v1.setPreco(30000);
+		v1.setPlaca("JXT 90-00");
 		
-		c1.showCarros();
-		c2.showCarros();
+		v2.setMarca("Omega");
+		v2.setModelo("Chevrolet");
+		v2.setPlaca("JXT-9090");
+		v2.setPreco(38000);
+		v2.setPreco(16000);
+
+		
+		c1.setMarca("Gol");
+		c1.setModelo("Volksvagem");
+		c1.setPlaca("JPT 32-32");
+		c1.setnLugares(6);
+		c1.setPreco(36000);
+		
+		cam1.setMarca("Bau");
+		cam1.setModelo("Roice");
+		cam1.setPlaca("PJP 21-21");
+		cam1.setPreco(46000);
+				
+		
+		v1.showVeiculos();
+		System.out.println("\n");
+		
+		
+		
 		
 		
 	}
