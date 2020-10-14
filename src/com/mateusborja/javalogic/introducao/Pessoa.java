@@ -1,4 +1,4 @@
-//encapsulation and inheritance
+//java encapsulation and inheritance
 package com.mateusborja.javalogic.introducao;
 
 public class Pessoa {
