@@ -1,5 +1,5 @@
 //java inheritance 
-package com.mateusborja.javalogic.introducao;
+package com.mateusborja.javalogic.samples;
 
 public class Carros extends Veiculos {
 	

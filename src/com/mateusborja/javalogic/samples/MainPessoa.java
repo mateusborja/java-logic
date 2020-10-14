@@ -1,5 +1,5 @@
 // inheritance
-package com.mateusborja.javalogic.introducao;
+package com.mateusborja.javalogic.samples;
 
 public class MainPessoa {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.mateusborja.javalogic.introducao;
+package com.mateusborja.javalogic.samples;
 
 import java.util.Scanner;
 
