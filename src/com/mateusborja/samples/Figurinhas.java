@@ -1,4 +1,4 @@
-package com.mateusborja.javalogic.samples;
+package com.mateusborja.samples;
 
 public class Figurinhas {
 	

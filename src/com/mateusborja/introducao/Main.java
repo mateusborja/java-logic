@@ -1,5 +1,5 @@
 //new class
-package com.mateusborja.javalogic.introducao;
+package com.mateusborja.introducao;
 
 public class Main {
 	
