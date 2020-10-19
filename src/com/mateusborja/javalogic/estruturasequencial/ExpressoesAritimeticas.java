@@ -8,6 +8,9 @@ public class ExpressoesAritimeticas {
 		/*regra de precedendia
 		 * 1 lugar => *, /, %
 		 * 2 lugar => +, -
+		 * Quando a precedencia for a mesma a regra diz que a
+		 * operaçao deve ser da esquerda para direita
+		 * Quando houver parenteses primeiro o parenteses
 		 */
 		
 		int x1, y1, z1;
@@ -44,6 +47,15 @@ public class ExpressoesAritimeticas {
 		
 		int s4 =  x4 / (y4 + z4) * w4; // 3 + 2 
 		System.out.println("O Resultado é: => " + s4); // value is 48
+		
+		int x5, y5, z5, w5;
+		x5 = 60;
+		y5 = 3; 
+		z5 = 2;
+		w5 = 4;
+		
+		int s5 =  x5 / ((y5 + z5) * w5); // 3 + 2 
+		System.out.println("O Resultado é: => " + s5); // value is 48
 		
 		
 		
