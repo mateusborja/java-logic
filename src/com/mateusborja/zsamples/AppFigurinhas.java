@@ -1,5 +1,5 @@
 //java instace and java methods
-package com.mateusborja.samples;
+package com.mateusborja.zsamples;
 
 public class AppFigurinhas {
 	

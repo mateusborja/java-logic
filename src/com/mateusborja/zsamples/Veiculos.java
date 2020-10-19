@@ -1,5 +1,5 @@
 //study java oo
-package com.mateusborja.samples;
+package com.mateusborja.zsamples;
 
 public class Veiculos  {
 	

@@ -1,5 +1,5 @@
 //java encapsulation and inheritance
-package com.mateusborja.samples;
+package com.mateusborja.zsamples;
 
 public class Pessoa {
 	

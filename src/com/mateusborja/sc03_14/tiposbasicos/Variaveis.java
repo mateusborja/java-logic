@@ -1,4 +1,4 @@
-package com.mateusborja.tiposbasicos;
+package com.mateusborja.sc03_14.tiposbasicos;
 
 public class Variaveis {
 

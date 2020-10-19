@@ -1,5 +1,5 @@
 //java expressions
-package com.mateusborja.expressaoaritmetica;
+package com.mateusborja.sc03_13.expressaoaritmetica;
 
 public class ExpressoesAritimeticas {
 

@@ -1,5 +1,5 @@
 // inheritance
-package com.mateusborja.samples;
+package com.mateusborja.zsamples;
 
 public class MainPessoa {
 	public static void main(String[] args) {

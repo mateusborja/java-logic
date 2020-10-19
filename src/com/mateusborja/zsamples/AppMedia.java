@@ -1,4 +1,4 @@
-package com.mateusborja.samples;
+package com.mateusborja.zsamples;
 
 import java.util.Scanner;
 

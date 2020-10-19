@@ -1,5 +1,5 @@
 //new class
-package com.mateusborja.introducao;
+package com.mateusborja.sc02.introducao;
 
 public class Main {
 	
