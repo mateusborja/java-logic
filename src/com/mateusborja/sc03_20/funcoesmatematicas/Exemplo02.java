@@ -7,8 +7,8 @@ public class Exemplo02 {
 		
 		double a, b, c, delta, x1, x2;
 		
-		a = 15; 
-		b = -25;
+		a = 150; 
+		b = 25;
 		c = 38;
 		
 		//formula de bascara
