@@ -13,8 +13,6 @@ public class ExercicioUriOnline1014 {
 
 		int x, y, z, maiorXY, maiorXYZ;
 
-		System.out.println("Digite três números diferentes: ");
-
 		x = sc.nextInt();
 		y = sc.nextInt();
 		z = sc.nextInt();
