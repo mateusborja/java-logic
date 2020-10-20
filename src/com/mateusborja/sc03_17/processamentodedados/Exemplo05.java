@@ -14,7 +14,7 @@ public class Exemplo05 {
 		a = 5.0;
 		b = (int) a;
 
-		c = 4;
+		c = 4.0;
 		d = (int) c; //casting
 
 		System.out.println(a);
