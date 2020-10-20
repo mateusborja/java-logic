@@ -15,12 +15,12 @@ public class ExercicioProposto_exerc04 {
 
 		N = sc.nextInt();
 
-		horas = N / 3600;
+		horas = N / 3600; // em horas
 		resto = N % 3600;
 
 		minutos = resto / 60; // 60min
 
-		segundos = resto % 60;
+		segundos = resto % 60; // em segundos
 
 		System.out.println(horas + ":" + minutos + ":" + segundos);
 
