@@ -8,7 +8,7 @@ public class Exercicio01 {
 
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US); // set default US input type
+		//Locale.setDefault(Locale.US); // set default US input type
 		Scanner sc = new Scanner(System.in);
 
 		double largura, comprimento, metroQuadrado;
