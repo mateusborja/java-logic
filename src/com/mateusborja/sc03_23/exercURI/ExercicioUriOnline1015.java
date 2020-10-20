@@ -1,4 +1,4 @@
-//java uri 1015
+//java uri 1015 distancia entre dois pontos
 package com.mateusborja.sc03_23.exercURI;
 
 import java.util.Locale;
@@ -11,17 +11,17 @@ public class ExercicioUriOnline1015 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int X;
-		double Y, consumoMedio;
+		double x1, y1, x2, y2, distancia;
 
-		X = sc.nextInt(); // distancia
-		Y = sc.nextDouble(); // combustivel gasto
+		x1 = sc.nextDouble();
+		y1 = sc.nextDouble();
 
-		consumoMedio = X / Y;
+		x2 = sc.nextDouble();
+		y2 = sc.nextDouble();
 
-		System.out.printf("%.3f km/l%n", consumoMedio);
+		distancia = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 
-		sc.close();
+		System.out.printf("%.4f%n", distancia);
 
 	}
 

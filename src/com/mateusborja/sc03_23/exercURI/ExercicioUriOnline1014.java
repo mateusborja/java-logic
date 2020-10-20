@@ -11,17 +11,17 @@ public class ExercicioUriOnline1014 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int x, y, z, maiorXY, maiorXYZ;
+		int X;
+		double Y, consumoMedio;
 
-		x = sc.nextInt();
-		y = sc.nextInt();
-		z = sc.nextInt();
+		X = sc.nextInt(); // distancia
+		Y = sc.nextDouble(); // combustivel gasto
 
-		maiorXY = (x + y + Math.abs(x - y)) / 2;
+		consumoMedio = X / Y;
 
-		maiorXYZ = (maiorXY + z + Math.abs(maiorXY - z)) / 2;
+		System.out.printf("%.3f km/l%n", consumoMedio);
 
-		System.out.println(maiorXYZ + " eh o maior");
+		sc.close();
 
 	}
 
