@@ -16,7 +16,7 @@ public class ExercicioProposto_exerc04 {
 		N = sc.nextInt();
 
 		horas = N / 3600; // em horas
-		resto = N % 3600;
+		resto = N % 3600; // permite o valor inteiro da divisao
 
 		minutos = resto / 60; // 60min
 
