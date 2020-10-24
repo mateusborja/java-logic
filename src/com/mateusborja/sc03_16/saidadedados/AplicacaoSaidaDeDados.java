@@ -3,7 +3,7 @@ package com.mateusborja.sc03_16.saidadedados;
 
 import java.util.Locale;
 
-public class Main {
+public class AplicacaoSaidaDeDados {
 	
 	public static void main(String[] args) {
 		

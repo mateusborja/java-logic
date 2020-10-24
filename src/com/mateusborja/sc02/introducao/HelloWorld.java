@@ -1,7 +1,7 @@
 //new class
 package com.mateusborja.sc02.introducao;
 
-public class Main {
+public class HelloWorld {
 	
 	public static void main(String[] args) {
 		//TODO

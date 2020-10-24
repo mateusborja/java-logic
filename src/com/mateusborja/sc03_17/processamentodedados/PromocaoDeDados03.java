@@ -1,6 +1,6 @@
 package com.mateusborja.sc03_17.processamentodedados;
 
-public class Exemplo03 {
+public class PromocaoDeDados03 {
 
 	public static void main(String[] args) {
 

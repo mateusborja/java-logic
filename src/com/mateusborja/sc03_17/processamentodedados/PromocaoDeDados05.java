@@ -1,7 +1,7 @@
 //java casting
 package com.mateusborja.sc03_17.processamentodedados;
 
-public class Exemplo05 {
+public class PromocaoDeDados05 {
 
 	public static void main(String[] args) {
 

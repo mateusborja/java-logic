@@ -3,7 +3,7 @@ package com.mateusborja.sc03_19.entradadedadosp2;
 
 import java.util.Scanner;
 
-public class Exemplo01 {
+public class EntradaDeDados02 {
 
 	public static void main(String[] args) {
 

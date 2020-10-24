@@ -4,7 +4,7 @@ package com.mateusborja.sc03_21.exerc01;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class ExercicioResolvido21 {
 
 	public static void main(String[] args) {
 

@@ -1,7 +1,7 @@
 //java examples
 package com.mateusborja.sc03_17.processamentodedados;
 
-public class Exemplo01 {
+public class PromocaoDeDados01 {
 	
 	public static void main(String[] args) {
 		

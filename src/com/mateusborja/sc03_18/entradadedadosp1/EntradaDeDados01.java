@@ -4,7 +4,7 @@ package com.mateusborja.sc03_18.entradadedadosp1;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exemplo01 {
+public class EntradaDeDados01 {
 
 	public static void main(String[] args) {
 

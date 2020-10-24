@@ -1,7 +1,7 @@
 //java functions
 package com.mateusborja.sc03_20.funcoesmatematicas;
 
-public class Exemplo01 {
+public class FuncaoMatematica01 {
 
 	public static void main(String[] args) {
 
