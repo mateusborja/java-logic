@@ -11,6 +11,8 @@ public class ExercicioResolvido37 {
 
 		int a, b, c;
 
+		System.out.println("Digite tres numeros Inteiros:");
+
 		a = sc.nextInt();
 		b = sc.nextInt();
 		c = sc.nextInt();
