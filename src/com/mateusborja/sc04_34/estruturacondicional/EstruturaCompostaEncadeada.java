@@ -21,6 +21,9 @@ public class EstruturaCompostaEncadeada {
 			System.out.println("Boa noite...");
 
 		}
+		
+		
+		sc.close();
 
 	}
 
