@@ -20,6 +20,8 @@ public class EstruturaComposta {
 
 			System.out.println("Boa tarde...");
 		}
+		
+		sc.close();
 
 	}
 
