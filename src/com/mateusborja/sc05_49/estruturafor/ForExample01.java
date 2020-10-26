@@ -1,7 +1,6 @@
 //java for
 package com.mateusborja.sc05_49.estruturafor;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class ForExample01 {
