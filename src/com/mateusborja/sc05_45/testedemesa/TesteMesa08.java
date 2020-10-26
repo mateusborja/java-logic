@@ -8,12 +8,10 @@ public class TesteMesa08 {
 		int x = 5, y = 1, i = 1;
 
 		while (i < x) {
-			x++;
 			i++;
 			y++;
 			System.out.print(i);
 			System.out.println(y);
-			System.out.println(x);
 
 		}
 	}
