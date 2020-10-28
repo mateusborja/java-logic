@@ -13,7 +13,11 @@ public class SomaNumerosPares {
 
 		Integer[] pares = new Integer[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 		List listaPares = Arrays.asList(pares);
-
+		
+		listaPares.set(1, -20);
+		System.out.println(listaPares.get(1));
+		
+		
 		System.out.println(listaPares);
 
 		for (int i = 0; i <= 12; i++) { // inicio = 0, condicao 0 a 20, incremento i + 1
