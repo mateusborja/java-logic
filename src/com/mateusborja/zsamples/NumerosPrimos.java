@@ -15,16 +15,16 @@ public class NumerosPrimos {
 
 	public static void main(String[] args) {
 
-		for (int i = 0; i <= 10; i++) {
-			if (i % 2 == 0)
-				System.out.println("numeros pares: " + i);
+		for (int a = 0; a <= 100; a++) {
+			if (a % 2 == 0)
+				System.out.println("numeros pares: " + a);
 
 		}
 
 		// numeros primos
 		System.out.println("");
 
-		for (int i = 2; i <= 20; i++) {
+		for (int i = 2; i <= 100; i++) {
 			if (numeroPrimo(i))
 				System.out.println("numeros primos: " + i);
 
