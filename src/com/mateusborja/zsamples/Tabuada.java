@@ -18,6 +18,8 @@ public class Tabuada {
 			System.out.println(i + " x " + n + " = " + tabuada);
 
 		}
+		
+		sc.close();
 
 	}
 
