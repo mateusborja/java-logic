@@ -1,4 +1,4 @@
-//java for
+//java for board test 02
 package com.mateusborja.sc05_50.testedemesa;
 
 public class TesteDeMesaFor03 {
