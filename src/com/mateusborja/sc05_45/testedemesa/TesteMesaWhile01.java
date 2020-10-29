@@ -1,7 +1,7 @@
 //java while com teste de mesa pratico
 package com.mateusborja.sc05_45.testedemesa;
 
-public class TesteMesa01 {
+public class TesteMesaWhile01 {
 
 	public static void main(String[] args) {
 
