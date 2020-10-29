@@ -3,7 +3,7 @@ package com.mateusborja.sc05_52.exerURI;
 
 import java.util.Scanner;
 
-public class ExercicioUriOnline1078 {
+public class uri1078Tabuada {
 
 	public static void main(String[] args) {
 
