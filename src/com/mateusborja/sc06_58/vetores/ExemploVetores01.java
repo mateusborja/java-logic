@@ -15,13 +15,13 @@ public class ExemploVetores01 {
 
 		double[] vetor = new double[n];
 
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++) { // lendo o array
 			vetor[i] = sc.nextDouble();
 
 		}
 
-		for (int i = 0; i < n; i++) {
-			System.out.printf("%.1f%n", vetor[i]);
+		for (int i = 0; i < n; i++) { // imprimindo
+			System.out.printf("[ %.1f ]", vetor[i]);
 
 		}
 
