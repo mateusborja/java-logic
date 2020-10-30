@@ -36,9 +36,8 @@ public class ArrayNomeIdadeAltura {
 		System.out.printf("Altura média: %.2f%n", media); //
 
 		int ct = 0;
-
 		for (int i = 0; i < n; i++) {
-			if (idades[i] < 16) {
+			if (idades[i] < 16) { // condicao de idades menos que 16
 				ct++; // ct = ct + 1;
 			}
 		}
