@@ -19,9 +19,10 @@ public class ColecaoDigitadosImpares {
 
 		}
 
+		System.out.print("numeros impares:");
 		for (int i = 0; i < n; i++) {
 			if (vet[i] % 2 != 0) {
-				System.out.println(vet[i]);
+				System.out.print(" "+ vet[i]);
 			}
 
 		}
