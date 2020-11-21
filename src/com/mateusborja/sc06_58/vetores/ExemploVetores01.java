@@ -11,6 +11,7 @@ public class ExemploVetores01 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
+		System.out.print("dig num ");
 		int n = sc.nextInt();
 
 		double[] vetor = new double[n];
