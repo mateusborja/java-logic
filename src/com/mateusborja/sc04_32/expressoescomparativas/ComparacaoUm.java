@@ -3,6 +3,7 @@ package com.mateusborja.sc04_32.expressoescomparativas;
 
 public class ComparacaoUm {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		int x = 5;
