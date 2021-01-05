@@ -10,14 +10,16 @@ public class OperadoraTelefonia {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int minutos;
+		double minutos;
 		double conta = 50.0;
 
-		minutos = sc.nextInt();
+		System.out.print("Minutos utilizados: ");
+		minutos = sc.nextDouble();
+		double taxa = minutos - 100;
 
 		if (minutos > 100) {
-			conta = conta + (minutos - 100) * 2.0;
-			//conta += (minutos - 100) * 2.0;
+			// conta = conta + (minutos - 100) * 2.0;
+			conta += taxa * 2.0;
 		}
 
 		System.out.printf("Valor da conta = R$ %.2f%n", conta);
